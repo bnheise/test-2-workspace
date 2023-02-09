@@ -1,0 +1,8 @@
+{
+  "projectName": "test-2-workspace",
+  "deployPath": "/Users/brianheise/liferay/demos/ce-cli/bundles/osgi/client-extensions",
+  "entrypoints": {
+    "test-test-test": "./src/test-test-test/index.ts"
+  },
+  "devServerPort": 3000
+}

@@ -1,0 +1,23 @@
+---
+assemble:
+  - from: dist
+    include: "*.css"
+    into: static/
+  - from: dist
+    include: "*.js"
+    into: static/
+test-test-test:
+  type: customElement
+  cssURLs:
+    - /test-test-test.css
+  friendlyURLMapping: test-test-test
+  htmlElementName: test-test-test
+  instanceable: false
+  name: Test Test Test
+  portletCategoryName: category.remote-apps
+  properties: {}
+  description: ""
+  urls:
+    - /test-test-test.js
+  useESM: true
+  sourceCodeURL: ~
